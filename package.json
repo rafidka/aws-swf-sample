@@ -4,7 +4,7 @@
   "description": "A sample for using AWS Simple Workflow Service (SWF)",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node index.ts"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/rafidka/aws-swf-sample/issues"
   },
-  "homepage": "https://github.com/rafidka/aws-swf-sample#readme"
+  "homepage": "https://github.com/rafidka/aws-swf-sample#readme",
+  "devDependencies": {
+    "@types/node": "^10.12.11",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.1"
+  }
 }
