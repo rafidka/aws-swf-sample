@@ -1,2 +1,5 @@
 # Dependency directories
 node_modules/
+
+# config.ts contains AWS credentials and should not be committed.
+config.ts
