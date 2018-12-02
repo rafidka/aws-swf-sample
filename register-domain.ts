@@ -1,4 +1,4 @@
-import { SWF } from "aws-sdk";
+import SWF = require("aws-sdk/clients/swf");
 import { SWF_DOMAIN_NAME, initAws } from "./config";
 import chalk from "chalk";
 

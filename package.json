@@ -5,7 +5,8 @@
   "main": "index.ts",
   "scripts": {
     "start": "ts-node index.ts",
-    "register-domain": "ts-node register-domain.ts"
+    "register-domain": "ts-node register-domain.ts",
+    "register-types": "ts-node register-types.ts"
   },
   "repository": {
     "type": "git",
