@@ -6,7 +6,12 @@
   "scripts": {
     "start": "ts-node index.ts",
     "register-domain": "ts-node register-domain.ts",
-    "register-types": "ts-node register-types.ts"
+    "register-types": "ts-node register-types.ts",
+    "create-s3-bucket": "ts-node create-s3-bucket.ts",
+    "workflow-decider": "ts-node workflow-decider.ts",
+    "runcommand-activity": "ts-node runcommand-activity.ts",
+    "printoutput-activity": "ts-node printoutput-activity.ts",
+    "start-workflow": "ts-node start-workflow.ts"
   },
   "repository": {
     "type": "git",
@@ -28,12 +33,18 @@
   "devDependencies": {
     "@types/aws-sdk": "^2.7.0",
     "@types/chalk": "^2.2.0",
+    "@types/lodash": "^4.14.118",
     "@types/node": "^10.12.11",
+    "@types/shelljs": "^0.8.0",
+    "@types/uuid": "^3.4.4",
     "ts-node": "^7.0.1",
     "typescript": "^3.2.1"
   },
   "dependencies": {
     "aws-sdk": "^2.368.0",
-    "chalk": "^2.4.1"
+    "chalk": "^2.4.1",
+    "lodash": "^4.17.11",
+    "shelljs": "^0.8.3",
+    "uuid": "^3.3.2"
   }
 }
